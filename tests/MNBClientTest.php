@@ -38,6 +38,6 @@ class MNBClientTest extends TestCase
     {
         $this->expectException(MNBClientException::class);
 
-        $this->mnbClient->getExchangeRate('XYZ');
+        $this->mnbClient->getExchangeRate('TESTX');
     }
 }

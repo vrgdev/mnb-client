@@ -12,7 +12,7 @@ class XmlParser implements XmlParserInterface
         $xml = simplexml_load_string($xmlString);
 
         if ($xml === false) {
-            throw new XmlParserException('Unable to parse XML!');
+            throw new XmlParserException('Unable to parse xml!');
         }
 
         return $xml;

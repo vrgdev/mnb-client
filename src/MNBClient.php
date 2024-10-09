@@ -32,7 +32,7 @@ class MNBClient implements MNBClientInterface
         $xpath = $parsedExchangeRates->xpath('/MNBCurrentExchangeRates/Day/Rate[@curr="' . $currency . '"]');
 
         if (!isset($xpath[0])) {
-            throw new MNBClientException('Currency not found!');
+            throw new MNBClientException('Unable to find exchange rate!');
         }
 
         $exchangeRateUnit = (int) $xpath[0]->attributes()->unit;
