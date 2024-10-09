@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "87f8255041c2c9002283fae37e7d4da1",
+    "content-hash": "e329587389493057d5703990a7baed3e",
     "packages": [
         {
             "name": "vrgdev/xml-parser",
-            "version": "dev-main",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vrgdev/xml-parser.git",
@@ -23,7 +23,6 @@
             "require-dev": {
                 "phpunit/phpunit": "^11.4"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -31,7 +30,7 @@
                 }
             },
             "support": {
-                "source": "https://github.com/vrgdev/xml-parser/tree/main",
+                "source": "https://github.com/vrgdev/xml-parser/tree/v1.0.0",
                 "issues": "https://github.com/vrgdev/xml-parser/issues"
             },
             "time": "2024-10-09T20:28:50+00:00"
@@ -1672,11 +1671,9 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "dev",
-    "stability-flags": {
-        "vrgdev/xml-parser": 20
-    },
-    "prefer-stable": true,
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
