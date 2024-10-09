@@ -4,7 +4,8 @@ namespace VrgDev\MNBClient;
 
 use VrgDev\MNBClient\Exception\MNBClientException;
 use VrgDev\MNBClient\MNBClientInterface;
-use VrgDev\MNBClient\XmlParserInterface;
+use VrgDev\XmlParser\XmlParser;
+use VrgDev\XmlParser\XmlParserInterface;
 
 class MNBClient implements MNBClientInterface
 {
