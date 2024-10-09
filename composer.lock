@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e329587389493057d5703990a7baed3e",
+    "content-hash": "81d78a4f7b4c5333e7eb24cbdeca5f0c",
     "packages": [
         {
             "name": "vrgdev/xml-parser",
