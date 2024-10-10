@@ -4,38 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "81d78a4f7b4c5333e7eb24cbdeca5f0c",
-    "packages": [
-        {
-            "name": "vrgdev/xml-parser",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/vrgdev/xml-parser.git",
-                "reference": "f05cbf0e370b838c7bf58f91c806f0255abf0c4b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/vrgdev/xml-parser/zipball/f05cbf0e370b838c7bf58f91c806f0255abf0c4b",
-                "reference": "f05cbf0e370b838c7bf58f91c806f0255abf0c4b",
-                "shasum": ""
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^11.4"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "VrgDev\\XmlParser\\": "src/"
-                }
-            },
-            "support": {
-                "source": "https://github.com/vrgdev/xml-parser/tree/v1.0.0",
-                "issues": "https://github.com/vrgdev/xml-parser/issues"
-            },
-            "time": "2024-10-09T20:28:50+00:00"
-        }
-    ],
+    "content-hash": "4c841346398090ea713676af5e36a5ac",
+    "packages": [],
     "packages-dev": [
         {
             "name": "myclabs/deep-copy",
