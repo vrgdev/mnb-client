@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6c2aac259a695a448a08bd9e3b2bd4c7",
+    "content-hash": "5d3ca0e70b10358c4c28fef545f0b36e",
     "packages": [
         {
             "name": "vrgdev/xml-parser",
-            "version": "v1.0.0",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vrgdev/xml-parser.git",
-                "reference": "573e006e3cc186c4c1e843980ed2cc46d2973eeb"
+                "reference": "21ec7969b86597ff101cb05563b4e99019ccb90e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vrgdev/xml-parser/zipball/573e006e3cc186c4c1e843980ed2cc46d2973eeb",
-                "reference": "573e006e3cc186c4c1e843980ed2cc46d2973eeb",
+                "url": "https://api.github.com/repos/vrgdev/xml-parser/zipball/21ec7969b86597ff101cb05563b4e99019ccb90e",
+                "reference": "21ec7969b86597ff101cb05563b4e99019ccb90e",
                 "shasum": ""
             },
             "require-dev": {
@@ -30,10 +30,10 @@
                 }
             },
             "support": {
-                "source": "https://github.com/vrgdev/xml-parser/tree/v1.0.0",
+                "source": "https://github.com/vrgdev/xml-parser/tree/v1.1.0",
                 "issues": "https://github.com/vrgdev/xml-parser/issues"
             },
-            "time": "2024-10-10T06:19:43+00:00"
+            "time": "2024-10-10T19:27:43+00:00"
         }
     ],
     "packages-dev": [

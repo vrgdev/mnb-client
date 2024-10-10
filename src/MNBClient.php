@@ -2,15 +2,12 @@
 
 namespace VrgDev\MNBClient;
 
-use VrgDev\MNBClient\Exception\MNBClientException;
-use VrgDev\MNBClient\MNBClientInterface;
 use VrgDev\XmlParser\XmlParser;
-use VrgDev\XmlParser\XmlParserInterface;
 
-class MNBClient implements MNBClientInterface
+class MNBClient
 {
     private \SoapClient $client;
-    private XmlParserInterface $xmlParser;
+    private XmlParser $xmlParser;
 
     public function __construct(string $wsdl, ?\SoapClient $client = null)
     {
@@ -33,7 +30,7 @@ class MNBClient implements MNBClientInterface
         $xpath = $parsedExchangeRates->xpath('/MNBCurrentExchangeRates/Day/Rate[@curr="' . $currency . '"]');
 
         if (!isset($xpath[0])) {
-            throw new MNBClientException('Unable to find exchange rate!');
+            throw new \Exception('Unable to find exchange rate!');
         }
 
         $exchangeRateUnit = (int) $xpath[0]->attributes()->unit;

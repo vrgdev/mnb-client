@@ -15,6 +15,6 @@
         }
     ],
     "require": {
-        "vrgdev/xml-parser": "^1.0"
+        "vrgdev/xml-parser": "^1.1"
     }
 }

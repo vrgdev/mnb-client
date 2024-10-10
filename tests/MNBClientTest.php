@@ -1,7 +1,6 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use VrgDev\MNBClient\Exception\MNBClientException;
 use VrgDev\MNBClient\MNBClient;
 
 class MNBClientTest extends TestCase
@@ -36,7 +35,7 @@ class MNBClientTest extends TestCase
 
     public function testGetExchangeRateFailed(): void
     {
-        $this->expectException(MNBClientException::class);
+        $this->expectException(\Exception::class);
 
         $this->mnbClient->getExchangeRate('TESTX');
     }
